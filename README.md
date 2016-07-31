@@ -22,5 +22,7 @@ the Goeuro Api to the CSV file
 After executing the JAR file, a CSV file called <i>goeuroApiToCsvOutput.csv</i> will be generated in the folder where you were located 
 when you executed the jar (Be sure of give the right writing permissions to the directory)
 #Entry Point to the code
-If you wanna take a look of the code, you can start from src/Main.java, there you will be able to follow the logic and access
-the inner logic.
+If you wanna take a look of the code, you can start from src/Main.java, there you will be able to follow the logic and access the inner logic.
+Notice that all of the logic is concentrated in 2 classes:<br/>
+<i/>src/goeuroreader/ApiGoeuroReader.java</i> Contains the logic regarding the reading process from the API<br/>
+<i>src/goeurowriter/GoeuroWriter.java</i> Contains the logic regarding the writing process into the CSV file <br/>
